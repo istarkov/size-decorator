@@ -1,0 +1,33 @@
+{
+  "name": "size-decorator",
+  "version": "0.0.1",
+  "description": "react size decorator, adds width and height props to component",
+  "main": "index.js",
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istarkov/size-decorator.git"
+  },
+  "keywords": [
+    "react",
+    "size",
+    "resize",
+    "decorator"
+  ],
+  "author": "istarkov https://github.com/istarkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/istarkov/size-decorator/issues"
+  },
+  "homepage": "https://github.com/istarkov/size-decorator#readme",
+  "peerDependencies": {
+    "react": ">=0.13.0 <0.15.0"
+  },
+  "devDependencies": {
+    "react": "^0.13.3",
+    "babel": "^5.4.7"
+  }
+}
